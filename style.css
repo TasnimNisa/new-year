@@ -1,0 +1,107 @@
+.background-image {
+    background-image: url("new-me/images/banner/banner3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+}
+.think-property {
+  color: aliceblue;
+  text-align: center; 
+  padding-top: 150px;
+  float: right;
+  width: 70%;
+}
+@media only screen and (max-width: 600px) {
+  background-image  {
+    max-width: 100%;
+    height: 200px;
+  }
+}
+.button {
+  border: none;
+  color: rgb(59, 139, 170);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.failures{
+  margin: 20px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.img{
+ 
+  width: 50%;
+}
+@media only screen and (max-width: 400px) {
+  img {
+    max-width: 50%;
+    height: 50%;
+  }  
+  }
+.years{
+  width: 50%; 
+  text-align: center; 
+  padding-top: 300px;
+}
+.heading{
+  padding: 40px;
+  text-align: center;
+}
+.plant{ 
+  padding: 50px;
+}
+.plants{
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-img{
+  background-image: url("new-me/images/gradient1.png");
+  background-repeat: no-repeat; 
+  height: 40vh;
+  padding: 40px;
+  
+}
+.banner1{
+  padding: 20px;
+  background-image: url("new-me/images/watch.png");
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;  
+}
+.button {
+  border: none;
+  color: rgb(59, 139, 170);
+  padding: 25px 4S2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.last{
+  background-color: black;
+  color: aliceblue;
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+}
+
+.email{
+  width: 50%;
+}
+.Future{
+  width: 50%;
+}
